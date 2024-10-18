@@ -32,6 +32,11 @@ using `UART1` for console
 $ rm -rf build && west build -b rpi_pico scsat1-rpi/pico -- -DCONSOLE=uart1
 ```
 
+build MCUboot image
+```shell
+$ rm -rf build && west build -b rpi_pico scsat1-rpi/pico -- -DMCUBOOT=enable
+```
+
 # :rocket: writing to Flash Memory
 
 > **Note**  
